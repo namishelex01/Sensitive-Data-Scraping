@@ -361,7 +361,6 @@ This repo is dedicated to all the regexes which I searched and found on multiple
                 <p><span style="color: rgb(0,0,255);">([t|T][w|W][i|I][t|T][t|T][e|E][r|R].*[1-9][0-9]+-[0-9a-zA-Z]{40})</span></p>
             </td>
         </tr>
-
     </tbody>
 </table>
 <h5>Blacklisted Keywords to search for inside the context</h5>
