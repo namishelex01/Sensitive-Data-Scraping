@@ -177,7 +177,6 @@ This repo is dedicated to all the regexes which I searched and found on multiple
                 <p><span style="color: rgb(0,0,255);">[a-zA-Z]{3,10}://[^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\&quot;'\\s]</span></p>
             </td>
         </tr>
-        ////////////////////////////////////////////////////
         <tr>
             <td>
                 <p><strong>Amazon MWS Auth Token</strong></p>
