@@ -177,6 +177,192 @@ This repo is dedicated to all the regexes which I searched and found on multiple
                 <p><span style="color: rgb(0,0,255);">[a-zA-Z]{3,10}://[^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\&quot;'\\s]</span></p>
             </td>
         </tr>
+        ////////////////////////////////////////////////////
+        <tr>
+            <td>
+                <p><strong>Amazon MWS Auth Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Facebook Access Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(EAACEdEose0cBA[0-9A-Za-z]+)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(AIza[0-9A-Za-z\\-_]{35})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Cloud Platform API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(AIza[0-9A-Za-z\\-_]{35})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Password in URL</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">[a-zA-Z]{3,10}://[^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\&quot;'\\s]</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Cloud Platform OAuth</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Drive API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(AIza[0-9A-Za-z\\-_]{35})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Drive OAuth</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google (GCP) Service-account</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">("type": "service_account".*)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Gmail API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(AIza[0-9A-Za-z\\-_]{35})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google Gmail OAuth</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google OAuth Access Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(ya29\\.[0-9A-Za-z\\-_]+)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google YouTube API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(AIza[0-9A-Za-z\\-_]{35})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Google YouTube OAuth</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>MailChimp API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([0-9a-f]{32}-us[0-9]{1,2})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Mailgun API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(key-[0-9a-zA-Z]{32})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>PayPal Braintree Access Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Picatic API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(sk_live_[0-9a-z]{32})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Stripe API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(sk_live_[0-9a-zA-Z]{24})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Stripe Restricted API Key</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(rk_live_[0-9a-zA-Z]{24})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Square Access Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(sq0atp-[0-9A-Za-z\\-_]{22})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Square OAuth Secret</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">(sq0csp-[0-9A-Za-z\\-_]{43})</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Twitter Access Token</strong></p>
+            </td>
+            <td>
+                <p><span style="color: rgb(0,0,255);">([t|T][w|W][i|I][t|T][t|T][e|E][r|R].*[1-9][0-9]+-[0-9a-zA-Z]{40})</span></p>
+            </td>
+        </tr>
+
     </tbody>
 </table>
 <h5>Blacklisted Keywords to search for inside the context</h5>
