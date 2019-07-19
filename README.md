@@ -149,7 +149,7 @@ This repo is dedicated to all the regexes which I searched and found on multiple
                 <p><strong>Slack Webhook</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);"><a href="https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24"><span style="color: rgb(0,0,255);">https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24</span></a>}</span>
+                <p><span style="color: rgb(0,0,255);">https://hooks[.]slack[.]com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}</span>
                 </p>
             </td>
         </tr>
