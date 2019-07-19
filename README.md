@@ -1,5 +1,6 @@
 # Sensitive-Data-Scraping
 This repo is dedicated to all the regexes which I searched and found on multiple blogs/repos/articles for scraping sensitive data out of a page/site.
+
 Reference :- https://github.com/dxa4481/truffleHogRegexes
 
 <h5>Regex table for sensitive information harvesting</h5>
