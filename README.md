@@ -15,7 +15,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Slack Token</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">(xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})</span></p>
+                <p><span style="color: rgb(0,0,255);">(xox[pboa]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})</span></p>
             </td>
         </tr>
         <tr>
@@ -87,7 +87,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Facebook Oauth</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[f|F][a|A][c|C][e|E][b|B][o|O][o|O][k|K].*['|\&quot;][0-9a-f]{32}['|\&quot;]</span></p>
+                <p><span style="color: rgb(0,0,255);">[fF][aA][cC][eE][bB][oO][oO][kK].*['|\"][0-9a-f]{32}['|\"]</span></p>
             </td>
         </tr>
         <tr>
@@ -95,7 +95,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Twitter Oauth</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\&quot;][0-9a-zA-Z]{35,44}['|\&quot;]</span></p>
+                <p><span style="color: rgb(0,0,255);">[tT][wW][iI][tT][tT][eE][rR].*['|\"][0-9a-zA-Z]{35,44}['|\"]</span></p>
             </td>
         </tr>
         <tr>
@@ -103,7 +103,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>GitHub</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[g|G][i|I][t|T][h|H][u|U][b|B].*['|\&quot;][0-9a-zA-Z]{35,40}['|\&quot;]</span></p>
+                <p><span style="color: rgb(0,0,255);">[gG][iI][tT][hH][uU][bB].*['|\"][0-9a-zA-Z]{35,40}['|\"]</span></p>
             </td>
         </tr>
         <tr>
@@ -127,7 +127,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Heroku API Key</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[h|H][e|E][r|R][o|O][k|K][u|U].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</span></p>
+                <p><span style="color: rgb(0,0,255);">[hH][eE][rR][oO][kK][uU].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</span></p>
             </td>
         </tr>
         <tr>
@@ -135,7 +135,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Generic API Key</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[a|A][p|P][i|I][_]?[k|K][e|E][y|Y].*['|\&quot;][0-9a-zA-Z]{32,45}['|\&quot;]</span></p>
+                <p><span style="color: rgb(0,0,255);">[aA][pP][iI][_]?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]</span></p>
             </td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Generic Secret</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[s|S][e|E][c|C][r|R][e|E][t|T].*['|\&quot;][0-9a-zA-Z]{32,45}['|\&quot;]</span></p>
+                <p><span style="color: rgb(0,0,255);">[sS][eE][cC][rR][eE][tT].*['|\"][0-9a-zA-Z]{32,45}['|\"]</span></p>
             </td>
         </tr>
         <tr>
@@ -360,7 +360,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Twitter Access Token</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">([t|T][w|W][i|I][t|T][t|T][e|E][r|R].*[1-9][0-9]+-[0-9a-zA-Z]{40})</span></p>
+                <p><span style="color: rgb(0,0,255);">[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40}</span></p>
             </td>
         </tr>
     </tbody>
