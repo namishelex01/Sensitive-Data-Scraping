@@ -135,7 +135,7 @@ Reference :- https://github.com/dxa4481/truffleHogRegexes
                 <p><strong>Generic API Key</strong></p>
             </td>
             <td>
-                <p><span style="color: rgb(0,0,255);">[aA][pP][iI][_]?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]</span></p>
+                <p><span style="color: rgb(0,0,255);">[aA][pP][iI]_?[kK][eE][yY].*['|\"][0-9a-zA-Z]{32,45}['|\"]</span></p>
             </td>
         </tr>
         <tr>
